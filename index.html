@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cultura Creative — Sales HQ Command Center v2.0</title>
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header class="top-bar">
+  <div class="logo">
+    <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-label="Cultura Creative">
+      <rect width="32" height="32" rx="7" fill="var(--accent)"/>
+      <path d="M10 16C10 12.6863 12.6863 10 16 10C17.5 10 18.8 10.6 19.8 11.5" stroke="var(--bg)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="22" cy="14" r="2" fill="var(--bg)"/>
+      <path d="M22 18C22 21.3137 19.3137 24 16 24C14 24 12.3 23 11.3 21.5" stroke="var(--bg)" stroke-width="2.5" stroke-linecap="round"/>
+    </svg>
+    <span>Cultura Creative Co.</span>
+  </div>
+  <div class="header-center">
+    <h1 class="page-title">Sales HQ Command Center</h1>
+    <span class="version-tag">v2.0</span>
+  </div>
+  <div class="status-pill">
+    <span class="dot"></span>
+    4 Sales Agents Active
+  </div>
+</header>
+
+<main>
+
+  <!-- ==================== LEGEND ==================== -->
+  <section class="legend">
+    <div class="legend-item"><span class="legend-dot" style="background:var(--phase-prospect)"></span>Lead Gen</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--phase-outreach)"></span>Outreach</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--phase-discovery)"></span>Discovery</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--phase-proposal)"></span>Proposal</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--phase-close)"></span>Close &amp; Onboarding</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--phase-lost)"></span>Lost &amp; Re-engage</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--phase-monitor)"></span>Monitoring</div>
+  </section>
+
+  <section class="card-legend">
+    <div class="card-legend-item"><span class="card-legend-swatch agent"></span>Agent (automated)</div>
+    <div class="card-legend-item"><span class="card-legend-swatch data"></span>Data Hub</div>
+    <div class="card-legend-item"><span class="card-legend-swatch process"></span>Process / Trigger</div>
+  </section>
+
+  <!-- ==================== PHASE 1: LEAD GENERATION ==================== -->
+  <section class="phase-section">
+    <div class="phase-header">
+      <span class="phase-tag" style="--phase-color:var(--phase-prospect)">PHASE 1</span>
+      <span class="phase-title">Lead Generation</span>
+    </div>
+    <div class="phase-grid">
+
+      <div class="node node-agent fade-up" style="--node-phase-color:var(--phase-prospect)">
+        <div class="node-head">
+          <div class="node-icon">🔍</div>
+          <div class="node-titles">
+            <h3>Prospecting Agent</h3>
+            <p class="schedule">Mondays 9 PM EDT</p>
+          </div>
+        </div>
+        <span class="node-badge">Weekly</span>
+        <ul class="detail-list">
+          <li>Searches web for 5-10 new FL prospects</li>
+          <li>Rotates verticals weekly</li>
+          <li>Scores ICP (Revenue $1M+, FL only, not solo)</li>
+          <li>Adds 50+ scores to Notion Pipeline</li>
+          <li>Tracks all in history file</li>
+        </ul>
+      </div>
+
+      <div class="node node-agent fade-up" style="--node-phase-color:var(--phase-prospect)">
+        <div class="node-head">
+          <div class="node-icon">📬</div>
+          <div class="node-titles">
+            <h3>Lead Reply Scanner</h3>
+            <p class="schedule">Weekdays 9 AM EDT</p>
+          </div>
+        </div>
+        <span class="node-badge">Daily</span>
+        <ul class="detail-list">
+          <li>Scans 3 inboxes (jc@cultura, jc@vbl, hola@cultura)</li>
+          <li>Detects positive / negative / ambiguous replies</li>
+          <li>Captures inbound leads</li>
+          <li>Drafts scheduling responses</li>
+          <li>Checks proposal follow-up needs</li>
+        </ul>
+      </div>
+
+      <div class="node node-process is-new fade-up" style="--node-phase-color:var(--phase-prospect)">
+        <div class="node-head">
+          <div class="node-icon">🔀</div>
+          <div class="node-titles">
+            <h3>Inbound Lead Routing</h3>
+            <p class="schedule">Auto-triggered by Reply Scanner</p>
+          </div>
+        </div>
+        <span class="node-badge badge-v2">v2.0</span>
+        <ul class="detail-list">
+          <li>Auto-creates Pipeline record on inbound detect</li>
+          <li>Immediate Research &amp; Audit → score</li>
+          <li>Notifies JC with lead details</li>
+          <li>Auto-drafts response for Hot leads</li>
+          <li>Source tagged: "Inbound - [channel]"</li>
+        </ul>
+      </div>
+
+      <div class="node node-data fade-up" style="--node-phase-color:var(--phase-prospect)">
+        <div class="node-head">
+          <div class="node-icon">📊</div>
+          <div class="node-titles">
+            <h3>Sales Pipeline</h3>
+            <p class="schedule">Notion Database Hub</p>
+          </div>
+        </div>
+        <span class="node-badge">Hub</span>
+        <ul class="detail-list">
+          <li>Company, Contact, Vertical</li>
+          <li>Tier Fit ($8.5K / $15.5K / $25K)</li>
+          <li>Lead Score, Priority (Hot/Warm/Cool)</li>
+          <li>Stage tracking through full funnel</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Connector -->
+  <div class="phase-connector"><svg width="2" height="20"><line x1="1" y1="0" x2="1" y2="20" stroke="var(--border)" stroke-width="2" stroke-dasharray="4 3"/></svg></div>
+
+  <!-- ==================== PHASE 2: OUTREACH ==================== -->
+  <section class="phase-section">
+    <div class="phase-header">
+      <span class="phase-tag" style="--phase-color:var(--phase-outreach)">PHASE 2</span>
+      <span class="phase-title">Outreach</span>
+    </div>
+    <div class="phase-grid">
+
+      <div class="node node-agent fade-up" style="--node-phase-color:var(--phase-outreach)">
+        <div class="node-head">
+          <div class="node-icon">✉️</div>
+          <div class="node-titles">
+            <h3>Outreach Agent</h3>
+            <p class="schedule">Mondays 10 PM EDT</p>
+          </div>
+        </div>
+        <span class="node-badge">Weekly</span>
+        <ul class="detail-list">
+          <li>Drafts Touch 1 for top 5 new prospects</li>
+          <li>4-touch cold sequence (Day 0, 4, 10, 21)</li>
+          <li>Proposal follow-ups (Day 3, 7, 14)</li>
+          <li>Re-engagement emails for returning Lost leads</li>
+          <li>Case study matching &bull; ALL saved as Gmail drafts</li>
+        </ul>
+      </div>
+
+      <div class="node node-process is-new fade-up" style="--node-phase-color:var(--phase-outreach)">
+        <div class="node-head">
+          <div class="node-icon">🔁</div>
+          <div class="node-titles">
+            <h3>Re-Engagement Sequence</h3>
+            <p class="schedule">Auto-scheduled on Lost → due date</p>
+          </div>
+        </div>
+        <span class="node-badge badge-v2">v2.0</span>
+        <ul class="detail-list">
+          <li>Budget/timing → re-engage at 90 days</li>
+          <li>Chose competitor → re-engage at 180 days</li>
+          <li>2-touch: new Cultura win + free snapshot offer</li>
+          <li>No response → archive permanently</li>
+        </ul>
+      </div>
+
+      <div class="node node-data fade-up" style="--node-phase-color:var(--phase-outreach)">
+        <div class="node-head">
+          <div class="node-icon">📋</div>
+          <div class="node-titles">
+            <h3>Outreach Tracker</h3>
+            <p class="schedule">Notion Database</p>
+          </div>
+        </div>
+        <span class="node-badge">Hub</span>
+        <ul class="detail-list">
+          <li>Subject, Company, Contact, Channel</li>
+          <li>Type: Cold / Follow-Up / Re-Engagement</li>
+          <li>Status: Drafted / Sent / Replied</li>
+          <li>Touch # per lead &bull; Full email body</li>
+        </ul>
+      </div>
+
+      <div class="node node-process fade-up" style="--node-phase-color:var(--phase-outreach)">
+        <div class="node-head">
+          <div class="node-icon">📝</div>
+          <div class="node-titles">
+            <h3>Gmail Drafts</h3>
+            <p class="schedule">JC's Review Queue</p>
+          </div>
+        </div>
+        <span class="node-badge">Manual</span>
+        <ul class="detail-list">
+          <li>Cold outreach (Touch 1-4)</li>
+          <li>Proposal follow-ups (Touch 1-3)</li>
+          <li>Re-engagement &bull; Scheduling responses</li>
+          <li>Welcome emails &bull; JC edits &amp; sends</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="phase-connector"><svg width="2" height="20"><line x1="1" y1="0" x2="1" y2="20" stroke="var(--border)" stroke-width="2" stroke-dasharray="4 3"/></svg></div>
+
+  <!-- ==================== PHASE 3: DISCOVERY ==================== -->
+  <section class="phase-section">
+    <div class="phase-header">
+      <span class="phase-tag" style="--phase-color:var(--phase-discovery)">PHASE 3</span>
+      <span class="phase-title">Discovery</span>
+    </div>
+    <div class="phase-grid cols-2">
+
+      <div class="node node-process fade-up" style="--node-phase-color:var(--phase-discovery)">
+        <div class="node-head">
+          <div class="node-icon">🔬</div>
+          <div class="node-titles">
+            <h3>Discovery Call Brief</h3>
+            <p class="schedule">Auto-generated on positive reply</p>
+          </div>
+        </div>
+        <span class="node-badge">Auto</span>
+        <ul class="detail-list">
+          <li>Lives INSIDE the lead's Pipeline page</li>
+          <li>Company overview + revenue estimate</li>
+          <li>Tier recommendation + scope options</li>
+          <li>Matched case study for the call</li>
+          <li>Discovery questions + JC call notes section</li>
+        </ul>
+      </div>
+
+      <div class="node node-process fade-up" style="--node-phase-color:var(--phase-discovery)">
+        <div class="node-head">
+          <div class="node-icon">📸</div>
+          <div class="node-titles">
+            <h3>Brand Snapshot</h3>
+            <p class="schedule">Hot leads (75+ score)</p>
+          </div>
+        </div>
+        <span class="node-badge">On Demand</span>
+        <ul class="detail-list">
+          <li>Lead Monitor flags snapshot candidates</li>
+          <li>Scores 6 categories (Identity, Social, Content, Web, Paid, Competitive)</li>
+          <li>Linked in proposal as pre-work evidence</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="phase-connector"><svg width="2" height="20"><line x1="1" y1="0" x2="1" y2="20" stroke="var(--border)" stroke-width="2" stroke-dasharray="4 3"/></svg></div>
+
+  <!-- ==================== PHASE 4: PROPOSAL ==================== -->
+  <section class="phase-section">
+    <div class="phase-header">
+      <span class="phase-tag" style="--phase-color:var(--phase-proposal)">PHASE 4</span>
+      <span class="phase-title">Proposal</span>
+    </div>
+    <div class="phase-grid">
+
+      <div class="node node-process fade-up" style="--node-phase-color:var(--phase-proposal)">
+        <div class="node-head">
+          <div class="node-icon">📄</div>
+          <div class="node-titles">
+            <h3>Proposal Generator</h3>
+            <p class="schedule">JC triggers manually</p>
+          </div>
+        </div>
+        <span class="node-badge">Manual</span>
+        <ul class="detail-list">
+          <li>Pulls Pipeline data → 5 interactive questions</li>
+          <li>Tier, sprint, add-ons, notes, snapshot</li>
+          <li>Auto-matches case studies</li>
+          <li>Generates Notion proposal under CLIENT/PROJECT</li>
+          <li>Growth Snapshot MANDATORY in every proposal</li>
+        </ul>
+      </div>
+
+      <div class="node node-process fade-up" style="--node-phase-color:var(--phase-proposal)">
+        <div class="node-head">
+          <div class="node-icon">📈</div>
+          <div class="node-titles">
+            <h3>Growth Snapshot</h3>
+            <p class="schedule">Mandatory in every proposal</p>
+          </div>
+        </div>
+        <span class="node-badge">Auto</span>
+        <ul class="detail-list">
+          <li>Financial &amp; growth projections</li>
+          <li>Opportunity + Growth Table + Revenue Impact</li>
+          <li>Quarter Roadmap + Bottom Line</li>
+          <li>Uses real Cultura metrics</li>
+        </ul>
+      </div>
+
+      <div class="node node-agent fade-up" style="--node-phase-color:var(--phase-proposal)">
+        <div class="node-head">
+          <div class="node-icon">🔄</div>
+          <div class="node-titles">
+            <h3>Proposal Follow-Up</h3>
+            <p class="schedule">Automated 3-touch sequence</p>
+          </div>
+        </div>
+        <span class="node-badge">Auto</span>
+        <ul class="detail-list">
+          <li>Day 3: Quick check-in</li>
+          <li>Day 7: Value add w/ specific deliverable</li>
+          <li>Day 14: Soft close / break-up</li>
+          <li>Drafted by Outreach Agent as Gmail drafts</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="phase-connector"><svg width="2" height="20"><line x1="1" y1="0" x2="1" y2="20" stroke="var(--border)" stroke-width="2" stroke-dasharray="4 3"/></svg></div>
+
+  <!-- ==================== PHASE 5: CLOSE & ONBOARDING ==================== -->
+  <section class="phase-section">
+    <div class="phase-header">
+      <span class="phase-tag" style="--phase-color:var(--phase-close)">PHASE 5</span>
+      <span class="phase-title">Close &amp; Onboarding</span>
+      <span class="version-tag" style="font-size:8px;">EXPANDED v2.0</span>
+    </div>
+    <div class="phase-grid cols-5">
+
+      <div class="node node-process fade-up" style="--node-phase-color:var(--phase-close)">
+        <div class="node-head">
+          <div class="node-icon">🤝</div>
+          <div class="node-titles">
+            <h3>Verbal Approval</h3>
+            <p class="schedule">JC confirms approval</p>
+          </div>
+        </div>
+        <span class="node-badge">Manual</span>
+        <ul class="detail-list">
+          <li>PDF generated from Notion proposal</li>
+          <li>Exported to Dropbox client folder</li>
+          <li>"Send for Signature" in Dropbox</li>
+          <li>Pipeline → Negotiation</li>
+        </ul>
+      </div>
+
+      <div class="node node-process is-new fade-up" style="--node-phase-color:var(--phase-close)">
+        <div class="node-head">
+          <div class="node-icon">🏆</div>
+          <div class="node-titles">
+            <h3>Won Handoff</h3>
+            <p class="schedule">7 auto-actions on signed contract</p>
+          </div>
+        </div>
+        <span class="node-badge badge-v2">v2.0</span>
+        <ul class="detail-list">
+          <li>Pipeline Stage → Won</li>
+          <li>Client Record → Clients DB</li>
+          <li>Project → Projects &amp; Revenue</li>
+          <li>Welcome Email auto-drafted (Gmail)</li>
+          <li>Content Flow Board created (Notion)</li>
+          <li>Full QuickBooks invoice schedule generated</li>
+          <li>Summary notification to JC w/ invoice table</li>
+        </ul>
+      </div>
+
+      <div class="node node-process is-new fade-up" style="--node-phase-color:var(--phase-close)">
+        <div class="node-head">
+          <div class="node-icon">👥</div>
+          <div class="node-titles">
+            <h3>Team Builder</h3>
+            <p class="schedule">JC assigns team</p>
+          </div>
+        </div>
+        <span class="node-badge badge-v2">v2.0</span>
+        <ul class="detail-list">
+          <li>Account Lead, Creative Dir, Designer, Video</li>
+          <li>Cost allocation + margin calc</li>
+          <li>Auto-notifies team via Gmail draft</li>
+          <li>Role, client info, kick-off, board link</li>
+        </ul>
+      </div>
+
+      <div class="node node-process fade-up" style="--node-phase-color:var(--phase-close)">
+        <div class="node-head">
+          <div class="node-icon">🚀</div>
+          <div class="node-titles">
+            <h3>Onboarding Sprint</h3>
+            <p class="schedule">14-item checklist</p>
+          </div>
+        </div>
+        <span class="node-badge">Auto</span>
+        <ul class="detail-list">
+          <li>Kick-off, logins, brand assets, positioning</li>
+          <li>Content pillars, audience, analytics</li>
+          <li>Competitors, calendar, 30/60/90 roadmap</li>
+          <li>Team briefed, comms channel, first batch</li>
+          <li>Client registered with monitor</li>
+        </ul>
+      </div>
+
+      <div class="node node-agent is-new fade-up" style="--node-phase-color:var(--phase-close)">
+        <div class="node-head">
+          <div class="node-icon">📡</div>
+          <div class="node-titles">
+            <h3>Client Monitor Registration</h3>
+            <p class="schedule">On onboarding completion</p>
+          </div>
+        </div>
+        <span class="node-badge badge-v2">v2.0</span>
+        <ul class="detail-list">
+          <li>Adds Content Flow board to Client Content Monitor cron</li>
+          <li>Creates dedicated Client Account Agent cron</li>
+          <li>Client fully integrated into monitoring system</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="phase-connector"><svg width="2" height="20"><line x1="1" y1="0" x2="1" y2="20" stroke="var(--border)" stroke-width="2" stroke-dasharray="4 3"/></svg></div>
+
+  <!-- ==================== PHASE 5B: LOST & RE-ENGAGEMENT ==================== -->
+  <section class="phase-section">
+    <div class="phase-header">
+      <span class="phase-tag" style="--phase-color:var(--phase-lost)">PHASE 5B</span>
+      <span class="phase-title">Lost Leads &amp; Re-Engagement</span>
+      <span class="version-tag" style="font-size:8px;">NEW v2.0</span>
+    </div>
+    <div class="phase-grid cols-2">
+
+      <div class="node node-process is-new fade-up" style="--node-phase-color:var(--phase-lost)">
+        <div class="node-head">
+          <div class="node-icon">🔙</div>
+          <div class="node-titles">
+            <h3>Lost → Re-Engagement Plan</h3>
+            <p class="schedule">Auto-triggered when Stage = Lost</p>
+          </div>
+        </div>
+        <span class="node-badge badge-v2">v2.0</span>
+        <ul class="detail-list">
+          <li>Captures reason for loss</li>
+          <li>Budget/timing → re-engage at 90 days</li>
+          <li>Chose competitor → re-engage at 180 days</li>
+          <li>Hard no / not a fit → archive</li>
+          <li>Outreach Agent auto-drafts when due</li>
+        </ul>
+      </div>
+
+      <div class="node node-agent is-new fade-up" style="--node-phase-color:var(--phase-lost)">
+        <div class="node-head">
+          <div class="node-icon">🔁</div>
+          <div class="node-titles">
+            <h3>Re-Engagement Emails</h3>
+            <p class="schedule">2-touch automated sequence</p>
+          </div>
+        </div>
+        <span class="node-badge badge-v2">v2.0</span>
+        <ul class="detail-list">
+          <li>Touch 1: Share new Cultura win</li>
+          <li>Touch 2: Offer free snapshot</li>
+          <li>No response → permanent archive</li>
+          <li>Response → back to Pipeline as warm lead</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="phase-connector"><svg width="2" height="20"><line x1="1" y1="0" x2="1" y2="20" stroke="var(--border)" stroke-width="2" stroke-dasharray="4 3"/></svg></div>
+
+  <!-- ==================== MONITORING ==================== -->
+  <section class="phase-section">
+    <div class="phase-header">
+      <span class="phase-tag" style="--phase-color:var(--phase-monitor)">MONITORING</span>
+      <span class="phase-title">Pipeline Health</span>
+    </div>
+    <div class="phase-grid cols-2">
+
+      <div class="node node-agent fade-up" style="--node-phase-color:var(--phase-monitor)">
+        <div class="node-head">
+          <div class="node-icon">🔔</div>
+          <div class="node-titles">
+            <h3>Lead Monitor</h3>
+            <p class="schedule">Mondays 11 PM EDT</p>
+          </div>
+        </div>
+        <span class="node-badge">Weekly</span>
+        <ul class="detail-list">
+          <li>Stale leads (5+ days untouched)</li>
+          <li>Overdue follow-ups</li>
+          <li>Hot leads sitting in Prospect stage</li>
+          <li>Brand Snapshot candidates</li>
+          <li>Pipeline health &amp; total value</li>
+          <li>Email alert to JC</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="phase-connector"><svg width="2" height="20"><line x1="1" y1="0" x2="1" y2="20" stroke="var(--border)" stroke-width="2" stroke-dasharray="4 3"/></svg></div>
+
+  <!-- ==================== PIPELINE STAGES ==================== -->
+  <section class="pipeline-strip">
+    <h2 class="section-title">Pipeline Stages</h2>
+    <div class="stage-flow">
+      <div class="stage-node" style="--stage-color:var(--phase-prospect)">
+        <span class="stage-num">1</span>Prospect
+      </div>
+      <div class="stage-arrow">→</div>
+      <div class="stage-node" style="--stage-color:var(--phase-outreach)">
+        <span class="stage-num">2</span>First Touch
+      </div>
+      <div class="stage-arrow">→</div>
+      <div class="stage-node" style="--stage-color:var(--phase-discovery)">
+        <span class="stage-num">3</span>Discovery Call
+      </div>
+      <div class="stage-arrow">→</div>
+      <div class="stage-node" style="--stage-color:var(--phase-proposal)">
+        <span class="stage-num">4</span>Proposal Sent
+      </div>
+      <div class="stage-arrow">→</div>
+      <div class="stage-node" style="--stage-color:var(--phase-close)">
+        <span class="stage-num">5</span>Negotiation
+      </div>
+      <div class="stage-arrow">→</div>
+      <div class="stage-branch">
+        <div class="stage-node stage-won"><span class="stage-num">🏆</span>Won</div>
+        <span class="stage-branch-label won-label">+ ONBOARDING</span>
+      </div>
+      <div class="stage-branch">
+        <div class="stage-node stage-lost"><span class="stage-num">↩</span>Lost</div>
+        <span class="stage-branch-label lost-label">RE-ENGAGE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== REVENUE TIERS ==================== -->
+  <section class="tiers-section">
+    <h2 class="section-title">Revenue Tiers</h2>
+    <div class="tiers-grid">
+      <div class="tier-card fade-up">
+        <div class="tier-header" style="--tier-color:var(--phase-outreach)">
+          <div>
+            <span class="tier-name">Tier 1</span>
+            <div class="tier-subtitle">Content Engine Partner</div>
+          </div>
+          <span class="tier-price">$8,500/mo</span>
+        </div>
+        <div class="tier-body">
+          <p class="tier-rev">$1M – $3M Revenue</p>
+          <p class="tier-label">Target: Founder / Owner</p>
+        </div>
+      </div>
+      <div class="tier-card fade-up">
+        <div class="tier-header" style="--tier-color:var(--phase-discovery)">
+          <div>
+            <span class="tier-name">Tier 2</span>
+            <div class="tier-subtitle">Pipeline Partner</div>
+          </div>
+          <span class="tier-price">$15,500/mo</span>
+        </div>
+        <div class="tier-body">
+          <p class="tier-rev">$3M – $10M Revenue</p>
+          <p class="tier-label">Target: Marketing Dir / VP</p>
+        </div>
+      </div>
+      <div class="tier-card fade-up">
+        <div class="tier-header" style="--tier-color:var(--phase-proposal)">
+          <div>
+            <span class="tier-name">Tier 3</span>
+            <div class="tier-subtitle">Ecosystem Partner</div>
+          </div>
+          <span class="tier-price">$25,000/mo</span>
+        </div>
+        <div class="tier-body">
+          <p class="tier-rev">$10M+ Revenue</p>
+          <p class="tier-label">Target: CMO / VP Marketing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MONDAY AUTOMATION ==================== -->
+  <section class="monday-flow">
+    <h2 class="section-title">Weekly Sales Automation Sequence</h2>
+    <div class="timeline">
+      <div class="timeline-item fade-up" style="--tl-color:var(--phase-prospect)">
+        <div class="timeline-time">9:00 PM Sun</div>
+        <div class="timeline-label">Prospecting Agent finds new leads</div>
+      </div>
+      <div class="timeline-item fade-up" style="--tl-color:var(--phase-outreach)">
+        <div class="timeline-time">10:00 PM Sun</div>
+        <div class="timeline-label">Outreach Agent drafts emails + proposal follow-ups + re-engagement</div>
+      </div>
+      <div class="timeline-item fade-up" style="--tl-color:var(--phase-monitor)">
+        <div class="timeline-time">11:00 PM Sun</div>
+        <div class="timeline-label">Lead Monitor scans pipeline health + Brand Snapshot flags</div>
+      </div>
+      <div class="timeline-item fade-up" style="--tl-color:var(--phase-prospect)">
+        <div class="timeline-time">9:00 AM Mon–Fri</div>
+        <div class="timeline-label">Reply Scanner checks all 3 inboxes + inbound routing</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SYSTEM STATS v2.0 ==================== -->
+  <section class="stats-bar">
+    <div class="stat fade-up">
+      <span class="stat-num">4</span>
+      <span class="stat-label">Sales Agents</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">8/8</span>
+      <span class="stat-label">Gaps Closed</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">7</span>
+      <span class="stat-label">Pipeline Stages</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">3</span>
+      <span class="stat-label">Email Inboxes</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">4</span>
+      <span class="stat-label">Touch Sequences</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">3</span>
+      <span class="stat-label">Revenue Tiers</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">QB</span>
+      <span class="stat-label">QuickBooks Integrated</span>
+    </div>
+    <div class="stat fade-up">
+      <span class="stat-num">DBX</span>
+      <span class="stat-label">Dropbox + Signature</span>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Cultura Creative Co. &mdash; Sales HQ Command Center v2.0 &mdash; All systems automated</p>
+  <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
