@@ -248,6 +248,10 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
+.phase-grid.cols-3 {
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+}
+
 .phase-grid.cols-5 {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
